@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+--first-background-color: #FFFFFF;
+--second-background-color: #F3F3EB;
+--first-text-color: #131B2E;
+--second-text-color: #FE4F02;
+--dest-color: #9D85FF;
+--shadow-color: #F2F2F2;
+
+/* home */
+--bg-color: #F0EFF3;
+--second-bg-color: #F5F4F8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--first-background-color);
+    box-shadow: 0 1px 1px var(--shadow-color);
+    padding: 10px 10%;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    font-size: 1rem;
+    padding: 11px 20px;
+    color: var(--first-text-color);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    color: var(--second-text-color);
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: radial-gradient( circle, var(--second-bg-color, #F5F4F8) 10%, var(--bg-color, #F0EFF3) 70%);
+    gap: 1rem;
+}
+
+.first-text {
+    flex: 1 1 17rem;
+}
+
+.first-text h1 {
+    font-size: 3rem;
+    color: var(--first-text-color);
+}
+
+.first-text h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--second-text-color);
+}
+
+.first-img {
+    flex: 1 1 17rem;
+    margin-bottom: 0;
+}
+
+.introduction {
+    flex-wrap: wrap;
+    margin-top: 2px;
+}
+
+.intro-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.intro-title span {
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+}
+
+.intro-title h1 {
+    font-size: 2rem;
+    color: var(--first-text-color);
+}
+
+.intro-text p {
+    flex: 1 1 21rem;
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+    color: var(--first-text-color);
+}
+
+.intro-text strong, em {
+    color: var(--dest-color);
+}
+
+.intro-img {
+    flex: 1 1 10rem;
+}
+
+.career {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-text {
+    margin-top: 20px;
+}
+
+.car-text h1 {
+    margin-top: 20px;
+    color: var(--first-text-color);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.car-text p {
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+}
+
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.achievements a {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: var(--dest-color);
+    display: flex;justify-content: center;
+}
+
+.achievements a:hover {
+    color: var(--second-text-color);
+}
+
+.end {
+    background: var(--second-background-color);
+}
+
+.end a {
+    color: var(--first-text-color);
+}
+
+.end a:hover {
+    color: var(--dest-color);
+}
+
+
+
+
+
