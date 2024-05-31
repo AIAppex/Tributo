@@ -11,6 +11,10 @@
 /* home */
 --bg-color: #F0EFF3;
 --second-bg-color: #F5F4F8;
+
+/* table */
+--white-color: #f2f2f2;
+--first-color: #ddd;
 }
 
 * {
@@ -163,11 +167,11 @@ header {
 table {
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid #ddd;
+    border: 1px solid var(--first-color);
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: var(--white-color);
     text-align: left;
     padding: 8px;
 }
@@ -175,7 +179,7 @@ th {
 
 td {
     padding: 8px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--first-color);
 }
 
 .achievements a {
